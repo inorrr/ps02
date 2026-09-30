@@ -1,3 +1,15 @@
-#!/bin/bash
-# Book component: search the user's library.
-# TODO: Accept a search term and return matching books.
+#!/usr/bin/env bash
+
+# Search component. It delegates storage access to the data layer.
+set -u
+
+ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+
+if [ "$#" -ge 1 ]; then
+  term="$1"
+else
+  IFS= read -r term
+fi
+
+[ -n "${term:-}" ] || { echo "A search term is required." >&2; exit 1; }
+"$ROOT_DIR/data/book_database.sh" search "$term"

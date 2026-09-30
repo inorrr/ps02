@@ -1,3 +1,9 @@
-#!/bin/bash
-# Application entry point.
-# TODO: Launch the main menu and connect top-level workflows.
+#!/usr/bin/env bash
+
+# Application entry point. All behavior lives in the layers below this file.
+set -u
+
+ROOT_DIR="$(cd "$(dirname "$0")" && pwd)"
+
+"$ROOT_DIR/data/book_database.sh" init
+exec "$ROOT_DIR/ui/main_menu.sh"

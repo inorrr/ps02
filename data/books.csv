@@ -1,1 +1,7 @@
-title,author,genre,status,rating,link
+id,title,author,genre,year,status,rating,link,date_added
+1,Rebecca,Daphne du Maurier,Gothic Mystery,1938,want-to-read,,https://openlibrary.org/search?q=Rebecca+Daphne+du+Maurier,2026-09-30
+2,The Thursday Murder Club,Richard Osman,Mystery,2020,want-to-read,,https://openlibrary.org/search?q=The+Thursday+Murder+Club+Richard+Osman,2026-09-30
+3,The Night Circus,Erin Morgenstern,Fantasy Romance,2011,want-to-read,,https://openlibrary.org/search?q=The+Night+Circus+Erin+Morgenstern,2026-09-30
+4,On Photography,Susan Sontag,Photography,1977,want-to-read,,https://openlibrary.org/search?q=On+Photography+Susan+Sontag,2026-09-30
+5,The Interior Design Handbook,Frida Ramstedt,Interior Design,2020,want-to-read,,https://openlibrary.org/search?q=The+Interior+Design+Handbook+Frida+Ramstedt,2026-09-30
+6,Ways of Seeing,John Berger,Art,1972,want-to-read,,https://openlibrary.org/search?q=Ways+of+Seeing+John+Berger,2026-09-30
